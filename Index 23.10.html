@@ -4,42 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>netflics</title>
+    <link rel="stylesheet" href="./cssNetflics/netflics.css">
 </head>
+
+
 <body>
-    <h1>Netflics</h1>
-    <img src="https://robohash.org/Federico" alt="senza immagine usciraà questo testo">
-    <img src="./immagini test/website-logo-clipart-6.jpg" alt="immagine con un mondo e la freccettina del mouse">
-    <br>
-    <hr>
-    <br>
-    <header> 
-        <div>
-         <b>
-          <ul style="display: flex">
-             <li><a href="">chi siamo</a></li>
-             <li style="margin-right: 20%; margin-left: 35%;"><a href=""target="_blank">assistenza</a></li>
-             <li style="margin-left: 20%;"><a href="" target="_blank"> contatti</a></li>
-          </ul>
-         </b>
-        </div>
-        <br>
-        <hr>
-    </header>
-    <main>
-      <form> 
+   
+     <header class="header"> 
+        <h1>Netflics</h1>
+        <img class="image1"src="./immagini test/website-logo-clipart-6.jpg" alt="senza immagine usciraà questo testo">
+    </header><!--"https://robohash.org/Federico" --> 
+
+
+    <main class="mainBox">
+      <nav class="navbar"> <!-- nav racchiude un elenco non ordinato-->
+        <li class="link-home"><a href="#">home</a></li>
+           <li class="link"><a href="">chi siamo</a></li>
+           <li class="link"><a href=""target="_blank">assistenza</a></li>
+           <li class="link"><a href="" target="_blank"> contatti</a></li>
+      </nav>
+       <form class="module"> 
         <label for="name">Nome :</label>
         <input name="name" id="name" type="text" placeholder="Your Name" required></input>
         <label for="surname">Cognome :</label>
         <input name="surname" id="surname" type="text" placeholder="Your Surname" required></input>
         <label for="Email">Email :</label>
         <input name="Email" id="Email" type="text" placeholder="Your Email" required></input>
-        <button type="submit">Invia</button>
-      </form>
+        <button class="submit-btn" type="submit">Invia</button>
+       </form>
     </main>
-    <br>
-    <hr>
-    <br>
-    <footer> 
+
+
+    <footer class="footer"> 
         <ul>
           <li><a href="https://www.instagram.com/">Instagram</a></li>
           <br>
@@ -49,7 +45,7 @@
           <br>
           <li><a href="https://www.instagram.com/">TikTok</a></li>
           <br>
-      </ul>
+        </ul>
     </footer>
 </body>
 </html>
