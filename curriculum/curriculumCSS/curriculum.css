@@ -1,0 +1,87 @@
+body{
+    border: 10px solid rgb(50, 57, 57);
+     margin: 5%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 250px;
+}
+.box1{
+   
+    background-color: rgb(125, 128, 128);
+}
+.imgClass{
+    border-radius: 50%;
+    border: solid rebeccapurple;
+    width: 40%;
+    margin-left: 25px;
+    margin: 5%;
+}
+ul {
+    list-style-type: none;
+  }
+.imgContact{
+    width: 10%;
+
+}
+
+ol{
+   color: rgb(255, 253, 253);
+}
+main{
+    margin-left: 185px; 
+    border: 5px solid rgb(50, 57, 57);
+    padding: 20px;
+    width: 450px;
+
+}
+h1{
+    font-weight: bolder;
+    font-style: oblique;
+    margin-left: 25%;
+    line-height: 5%;
+}
+h2{
+   margin-left: 5%;
+   color: rgb(255, 253, 253);
+}
+h3{
+    color: rgb(0, 0, 0);
+    margin-left:33%;
+    line-height: 5%;
+    font-size: larger;
+}
+.description {
+    color: black;
+    margin-left: 40%;
+}
+pre {
+    text-align: center;
+    margin-right: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.divClass{
+    font-size: larger;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+}
+td{
+    text-align: center;
+    font-size:small;
+    padding: 10px;
+}
+footer{
+    margin-top: 15%;
+    border: 5px solid rgb(50, 57, 57);
+}
