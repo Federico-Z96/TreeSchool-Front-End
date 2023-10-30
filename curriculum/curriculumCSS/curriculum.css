@@ -5,6 +5,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 header{
         display: flex;
@@ -23,8 +24,12 @@ header{
     margin-left: 25px;
     margin: 5%;
 }
-ul {
+.ul {
     list-style-type: none;
+  
+  }
+  ul{
+      color: white;
   }
 .imgContact{
     width: 10%;
@@ -35,16 +40,17 @@ ol{
    color: rgb(255, 253, 253);
 }
 main{
-    margin-left: 185px; 
+    margin-left: 2.7%; 
+    margin-right: 2.5%;
     border: 5px solid rgb(50, 57, 57);
     padding: 20px;
-    width: 450px;
+    width: 900px;
 
 }
 h1{
     font-weight: bolder;
     font-style: oblique;
-    margin-left: 25%;
+    margin-left: 35%;
     line-height: 5%;
 }
 h2{
@@ -53,13 +59,18 @@ h2{
 }
 h3{
     color: rgb(0, 0, 0);
-    margin-left:33%;
+    margin-left:40%;
     line-height: 5%;
     font-size: larger;
 }
+hr{
+    color: #000;
+    background-color: #000;
+    height: 1px;
+}
 .description {
     color: black;
-    margin-left: 40%;
+    margin-left: 43%;
 }
 pre {
     text-align: center;
@@ -69,12 +80,18 @@ pre {
 .divClass{
     font-size: larger;
 }
+.h3{
+   margin-left: 10%;
+   margin-top: 5%;
+   font-size: x-large;
+}
 table{
     border-collapse: separate;
     border-spacing: 35px;
     display: flex;
     justify-content: space-evenly;
     margin-left: 15%;
+    margin-right: 150px; 
 }
 td{
     text-align: center;
