@@ -250,3 +250,57 @@ function filterWordsByMinAndMaxLength(myStringsArray, minLength, maxLength) {
   }
 
  console.log(filterWordsByMinAndMaxLength(["Ciao", "questo", "non", "mi", "piace"],2, 5))
+
+ /*   +++ Find +++
+ testare su un array di stringhe il metodo find per trovare 
+ le parole più lunghe di 4 caratteri
+ */ 
+
+ function findMyWords(myArray){
+    return myArray.find(function(element){
+        return element.length > 4 && element.charAt(0) === 'a'
+    })
+    //implementazione che permette di trovare tramite find l'elemento 
+   // che abbia più di 4 e con il primo carattere(char.At)che sia la lettera 'a' 
+   
+   //METODO PER TROVARE UN ELEMENTO IN UN ARRAY TRAMITE LA STRINGA CHE VOGLIO CERCARE
+   /*const array = ["Ciao", "questo", "non", "mi", "piace"]
+
+   function arrayFind(myArray, searchString){
+       return myArray.find(function(element){
+           return element === searchString
+       })
+   }
+   console.log(arrayFind(array, "non"))*/
+   
+   /*  SOLUZIONE CORRETTA
+    return myArray.find(function(element){
+        return element.length > 4
+    })*/
+ }
+
+
+  console.log(findMyWords(["Ciao", "questo","asino", "non", "mi", "piace"]))
+
+
+
+ /*    +++Includes+++
+   provare con il metodo includes su un array di stringhe
+    per trovare le parole con la lettera A
+ */
+
+/*function arrayIncludes(myArray){
+    return myArray.every(function(element) {
+        return element.includes("a");
+      });return myArray.every(function(element) {
+        return element.includes("a");
+      }); 
+}*/
+
+function arrayIncludes(myArray) {
+   // return myArray.every(function(element) {
+    return myArray.map(function(element) {
+      return element.includes("a");
+    });
+  }
+console.log(arrayIncludes(["Ciao", "questo","Ascelle",  "non", "mi", "piace"]))
